@@ -1,0 +1,13 @@
+Factors,Models,Tuning Parameter,Best Values (default),Best Values (RMSLE),Best Values (RMSE),10 CV Accuracy (default),10 CV Accuracy (RMSLE),10 CV Accuracy (RMSE),Tuning Time (s) (default),Tuning Time (s) (RMSLE),Tuning Time (s) (RMSE)
+All factors,KNN,n_neighbors,10,18,17,0.013411721,1.687080708,185.6986872,34.236,34.125,34.013
+All factors,Logistic Regression,C,1,1,29,0.016351277,1.765848457,193.0518077,22015.745,22001.158,22198.225
+All factors,Classification Tree,max_depth,6,1,1,0.023148999,1.36478799,211.5738867,70.016,70.231,28.295
+All factors,Bagging,n_neighbors,10,18,17,0.013411721,1.687080708,185.6986872,34.236,34.125,34.013
+All factors,Random forest,n_estimators,3,5,5,0.01662686,0.876853289,140.0817564,818.651,839.794,850.417
+All factors,Boosted Trees,n_estimators,1,1,1,0.018188499,1.36478799,211.5738867,1510.984,1509.256,1511.459
+Selected factors,KNN,n_neighbors,3,25,17,0.017821055,1.389815633,176.28144,25.101,24.712,24.713
+Selected factors,Logistic Regression,C,1,1,1,0.020117582,1.914244053,186.1006511,6587.324,6520.286,6542.044
+Selected factors,Classification Tree,max_depth,7,1,1,0.020301304,1.36478799,211.5738867,16.227,15.989,15.914
+Selected factors,Bagging,n_neighbors,3,25,17,0.017821055,1.389815633,176.28144,25.101,24.712,24.713
+Selected factors,Random forest,n_estimators,2,2,1,0.016718721,0.948382145,152.7181929,661.761,667.47,673.558
+Selected factors,Boosted Trees,n_estimators,1,1,1,0.018188499,1.36478799,211.5738867,1511.929,1502.137,1500.088
